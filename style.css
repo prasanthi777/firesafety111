@@ -1,0 +1,234 @@
+
+body {
+    background: #f3f3f3;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    color: #45484a;
+    width: 100%;
+    margin: 0%;
+    /* background-attachment: scroll !important; */
+}
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+} 
+#icon {
+    width: 60px;
+    border-radius: 100%;
+    cursor: pointer; 
+}
+body.html{
+    display: block;
+}
+
+:root {
+    --primary-color: black;
+    --secondary-color: #edf2fc;
+}
+
+.dark-theme {
+    --primary-color: white;
+    --secondary-color: black;
+}
+
+
+.navbar li {
+    list-style: none;
+    font: size 20px;
+    text-transform: capitalize;
+    display: inline-block;
+    list-style: none;
+    display: inline;
+    color: var(--primary-color);
+    height: auto; 
+     padding: 0px 20px; 
+    font-size: 20px;
+    position: relative;
+     margin: auto; 
+
+
+}
+
+.navbar {
+    
+    background-color: var(--secondary-color);
+    width: 100%;
+    margin: 0%;
+
+
+}
+
+.navbar .li .logo {
+    justify-content: flex-end;
+}
+
+.red_footer {
+    width: 100%;
+    background-color: red;
+    padding: 6px; 
+    color: var(--primary-color);
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+
+
+}
+
+.red_footer marquee {
+    text-transform: capitalize;
+    font-size: xx-large;
+    height: 50px;
+    max-width: 60rem;
+
+}
+
+#abcfirehydrant {
+    background: url(http://abcfireindia.com/wp-content/uploads/2015/04/fireaccident.jpg);
+    /* width: auto;
+    height: auto; */
+    padding: 5px;
+    margin: 0px;
+    color: #edf2fc;
+
+}
+
+#abcfirehydrant {
+    background-size: cover ;
+}
+
+.grey {
+    background-color: var(--secondary-color);
+    height: 15vh;
+    padding: 2px;
+    /* margin-left: auto; */
+    text-align: right;
+    color: var(--primary-color);
+    text-transform: uppercase;
+
+}
+
+ .red1 {
+    background-color: red;
+    padding: 50px; 
+    color: var(--primary-color);
+    text-align:center;
+    font-size: 30px;
+    width: 100%;
+    margin: 0px;
+} 
+
+.container {
+    width: 100%;
+    margin: 0cm;
+    margin-left: 0cm;
+   
+}
+
+.white {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    height: 10vh;
+    padding: 5px;
+    background: fixed;
+    gap: 2em;
+    /* margin: auto; */
+
+
+}
+/* space issue.......................................................... */
+.bottom_section {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    display: inline-flex;
+    gap: 5em;
+    text-transform: capitalize;
+    font-size: x-large;
+    font-style: bold;
+    margin-right: 0%;
+    width: 100%;
+    padding: 20px;
+
+}
+/* 
+@media (min-width: 200em) {
+    .bottom_section {
+        max-width: 60rem;
+        
+    }
+} */
+
+
+.bottom_section .image {
+    text-align: center;
+
+}
+
+.bottom_section .list {
+    list-style: none;
+    text-transform: capitalize;
+}
+
+.bottom_section .capital {
+    font-size: x-large;
+
+}
+.capital{
+    color:#fff;
+    font-weight:bolder;
+    font-size: larger;
+}
+
+/*coupon*/
+.coupon {
+    background: linear-gradient(#7158fe, #9d4de6);
+    color: #fff;
+    text-align: center;
+    /* padding: 5px 5px 2px 2px; */
+    border-radius: 10px;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.15);
+    opacity: 1;
+    margin-left: 600px;
+    margin-right: 30px;
+    position: absolute;
+    z-index: 2;
+
+}
+
+.close {
+    width: 24px;
+    height: 8px;
+    position: absolute;
+    top: 30px;
+    right: 100px;
+    z-index: 5;
+    cursor: pointer;
+
+}
+
+.logo1 {
+    margin-bottom: 8px;
+}
+
+.coupon h3 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.coupon p {
+    font-size: 14px;
+}
+
+.get-discount-btn {
+    padding: 12;
+    background: #885daf;
+    color: #fff;
+    border: #edf2fc;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 3px;
+    align-self: flex-end;
+    position: absolute;
+}
+
